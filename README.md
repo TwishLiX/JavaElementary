@@ -1,2 +1,2 @@
 # JavaElementary
-My first steps in studying Java.
+My first steps in learning Java.
