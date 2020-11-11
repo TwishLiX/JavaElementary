@@ -17,13 +17,13 @@ public class Homework2 {
             action = scanner.nextInt();
             switch (action) {
                 case 1:
-                    homework2.getFirstTask();
+                    homework2.getAverageOfTwo();
                     break;
                 case 2:
-                    homework2.getSecondTask();
+                    homework2.getArbitraryAverage();
                     break;
                 case 3:
-                    homework2.getThirdTask();
+                    homework2.getDepositInfo();
                     break;
                 case 0:
                     System.exit(0);
@@ -34,7 +34,7 @@ public class Homework2 {
         } while (true);
     }
 
-    public void getFirstTask() {
+    public void getAverageOfTwo() {
         double number1, number2, average;
         System.out.print("Input the first number: ");
         number1 = scanner.nextDouble();
@@ -45,29 +45,16 @@ public class Homework2 {
         System.out.println();
     }
 
-    public void getSecondTask() {
-        int amount;
+    public void getArbitraryAverage() {
         double average = 0;
-        double[] numbers;
-        do {
-            System.out.print("Input an amount of numbers: ");
-            amount = scanner.nextInt();
-            if (amount <= 1) {
-                System.out.println("Amount of numbers must be greater than 1.");
-            }
-        } while (amount <= 1);
-        numbers = new double[amount];
-        for (int i = 0; i < amount; i++) {
-            System.out.print("Input the " + (i + 1) + " number: ");
-            numbers[i] = scanner.nextDouble();
-            average += numbers[i];
+        for (int i = 1; i > 0; i++) {
+            System.out.print("Input a number: ");
+            System.out.println(("Average of " + i + " number(s): " + (average += scanner.nextDouble()) / i));
         }
-        average /= amount;
-        System.out.println("Average of " + amount + " numbers: " + average);
         System.out.println();
     }
 
-    public void getThirdTask() {
+    public void getDepositInfo() {
         int depositDuration;
         double initialSum, percentages, balance, percentagesInUAH;
         do {
