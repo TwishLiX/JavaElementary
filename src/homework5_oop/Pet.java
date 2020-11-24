@@ -1,6 +1,6 @@
 package homework5_oop;
 
-public class Pet extends Animal {
+public abstract class Pet extends Animal {
 
     private String name;
     private Boolean isVaccinated;
