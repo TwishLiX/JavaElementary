@@ -1,9 +1,17 @@
-package homework6_interfaces;
+package homework6_interfaces.wild;
 
-public class Crocodile extends WildAnimal implements Swim {
+import homework6_interfaces.Swimmable;
+import homework6_interfaces.Voiceable;
+
+public class Crocodile extends WildAnimal implements Voiceable, Swimmable {
 
     public Crocodile(int id, int age, double weight, String color) {
         super(id, age, weight, color, true);
+    }
+
+    @Override
+    public String makeSound() {
+        return ("Hello, I'm a wild animal and I'm angry. ");
     }
 
     @Override

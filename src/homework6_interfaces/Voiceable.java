@@ -1,5 +1,5 @@
 package homework6_interfaces;
 
-public interface Voice {
+public interface Voiceable {
     String makeSound();
 }

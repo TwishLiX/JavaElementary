@@ -1,6 +1,6 @@
 package homework6_interfaces;
 
-public abstract class Animal implements Voice {
+public abstract class Animal {
 
     private int id;
     private int age;
@@ -44,11 +44,6 @@ public abstract class Animal implements Voice {
 
     public void setColor(String color) {
         this.color = color;
-    }
-
-    @Override
-    public String makeSound() {
-        return "Hello. ";
     }
 
     @Override

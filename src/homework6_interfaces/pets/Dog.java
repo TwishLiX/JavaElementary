@@ -1,6 +1,9 @@
-package homework6_interfaces;
+package homework6_interfaces.pets;
 
-public class Dog extends Pet implements Swim {
+import homework6_interfaces.Swimmable;
+import homework6_interfaces.Voiceable;
+
+public class Dog extends Pet implements Voiceable, Swimmable {
 
     private boolean isTrained;
 
@@ -23,7 +26,11 @@ public class Dog extends Pet implements Swim {
 
     @Override
     public String makeSound() {
-        return super.makeSound() + "Woof. ";
+        if (getName() == null || getName().equals("")) {
+            return ("Hello. Woof. ");
+        } else {
+            return ("Hello, my name is " + getName() + ". Woof. ");
+        }
     }
 
     @Override

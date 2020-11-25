@@ -1,6 +1,9 @@
-package homework6_interfaces;
+package homework6_interfaces.pets;
 
-public class Fish extends Pet implements Swim {
+import homework6_interfaces.Swimmable;
+import homework6_interfaces.Voiceable;
+
+public class Fish extends Pet implements Voiceable, Swimmable {
 
     public Fish(int id, int age, double weight, String color, String name) {
         super(id, age, weight, color, name, null);

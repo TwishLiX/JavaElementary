@@ -1,5 +1,5 @@
 package homework6_interfaces;
 
-public interface Swim {
+public interface Swimmable {
     void swim();
 }

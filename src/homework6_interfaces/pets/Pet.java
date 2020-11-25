@@ -1,4 +1,6 @@
-package homework6_interfaces;
+package homework6_interfaces.pets;
+
+import homework6_interfaces.Animal;
 
 public abstract class Pet extends Animal {
 
@@ -35,15 +37,6 @@ public abstract class Pet extends Animal {
         } else {
             isVaccinated = true;
             System.out.println("Your pet is vaccinated now.");
-        }
-    }
-
-    @Override
-    public String makeSound() {
-        if (name == null || name.equals("")) {
-            return super.makeSound();
-        } else {
-            return (super.makeSound() + "My name is " + name + ". ");
         }
     }
 

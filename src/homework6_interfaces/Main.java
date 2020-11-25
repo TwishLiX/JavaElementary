@@ -1,5 +1,11 @@
 package homework6_interfaces;
 
+import homework6_interfaces.pets.*;
+import homework6_interfaces.wild.Crocodile;
+import homework6_interfaces.wild.Giraffe;
+import homework6_interfaces.wild.Lion;
+import homework6_interfaces.wild.Wolf;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,7 +22,6 @@ public class Main {
 
         for (Animal animal : animals) {
             System.out.println(animal);
-            System.out.println(animal.makeSound());
         }
     }
 }

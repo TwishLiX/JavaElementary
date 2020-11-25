@@ -1,4 +1,6 @@
-package homework6_interfaces;
+package homework6_interfaces.wild;
+
+import homework6_interfaces.Animal;
 
 public abstract class WildAnimal extends Animal {
 
@@ -15,15 +17,6 @@ public abstract class WildAnimal extends Animal {
 
     public void setPredator(boolean predator) {
         isPredator = predator;
-    }
-
-    @Override
-    public String makeSound() {
-        if (!isPredator) {
-            return (super.makeSound() + "I'm a wild animal. ");
-        } else {
-            return (super.makeSound() + "I'm a wild animal and I'm angry. ");
-        }
     }
 
     @Override

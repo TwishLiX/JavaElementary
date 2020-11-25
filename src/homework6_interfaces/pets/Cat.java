@@ -1,6 +1,9 @@
-package homework6_interfaces;
+package homework6_interfaces.pets;
 
-public class Cat extends Pet implements Swim {
+import homework6_interfaces.Swimmable;
+import homework6_interfaces.Voiceable;
+
+public class Cat extends Pet implements Voiceable, Swimmable {
 
     public Cat(int id, int age, double weight, String color, String name, boolean isVaccinated) {
         super(id, age, weight, color, name, isVaccinated);
@@ -8,7 +11,11 @@ public class Cat extends Pet implements Swim {
 
     @Override
     public String makeSound() {
-        return super.makeSound() + "Meow.";
+        if (getName() == null || getName().equals("")) {
+            return ("Hello. Meow.");
+        } else {
+            return ("Hello, my name is " + getName() + ". Meow.");
+        }
     }
 
     @Override
