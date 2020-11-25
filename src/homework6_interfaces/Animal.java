@@ -1,7 +1,6 @@
 package homework6_interfaces;
 
 public abstract class Animal {
-
     private int id;
     private int age;
     private double weight;

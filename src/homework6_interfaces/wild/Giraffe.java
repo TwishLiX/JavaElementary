@@ -10,7 +10,7 @@ public class Giraffe extends WildAnimal implements Voiceable {
 
     @Override
     public String makeSound() {
-        return ("Hello, I'm a wild animal. ");
+        return ("Hello, I'm a wild animal.");
     }
 
     @Override

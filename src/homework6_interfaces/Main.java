@@ -9,6 +9,7 @@ import homework6_interfaces.wild.Wolf;
 public class Main {
 
     public static void main(String[] args) {
+
         Animal[] animals = new Animal[9];
         animals[0] = new Crocodile(2544, 2, 500.4, "green");
         animals[1] = new Giraffe(3471, 5, 800, "orange");

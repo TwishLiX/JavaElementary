@@ -11,7 +11,7 @@ public class Hamster extends Pet implements Voiceable {
     @Override
     public String makeSound() {
         if (getName() == null || getName().equals("")) {
-            return ("Hello.");
+            return ("Hello. ");
         } else {
             return ("Hello, my name is " + getName() + ".");
         }
