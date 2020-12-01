@@ -2,7 +2,7 @@ package homework7_customCollection;
 
 public class StringCollection {
     private String[] collection;
-    private int cell = 0;
+    private int count = 0;
 
     public StringCollection() {
         collection = new String[10];
@@ -13,57 +13,86 @@ public class StringCollection {
     }
 
     public void add(String value) {
-        int size = collection.length;
-        if (cell > collection.length - 1) {
-            size += collection.length / 1.5;
-            String[] tempArray = new String[collection.length];
-            System.arraycopy(collection, 0, tempArray, 0, collection.length);
-            collection = new String[size];
-            System.arraycopy(tempArray, 0, collection, 0, tempArray.length);
+        if (count > collection.length - 1) {
+            resize();
         }
-        collection[cell] = value;
-        cell++;
+        collection[count++] = value;
     }
 
     public void add(int index, String value) {
-        collection[index] = value;
-    }
-
-    public void delete(String value) {
-        for (int i = 0; i < size(); i++) {
-            if (collection[i].equals(value)) {
-                delete(i);
+        if (index < 0 || index > count) {
+            throw new IndexOutOfBoundsException("Index is out of range.");
+        } else if (index == count && count <= collection.length - 1) {
+            collection[index] = value;
+            count++;
+        } else if (index == count && count > collection.length - 1) {
+            resize();
+            collection[index] = value;
+            count++;
+        } else {
+            String[] tempArray = new String[collection.length + 1];
+            count++;
+            for (int i = 0; i < index; i++) {
+                tempArray[i] = collection[i];
+            }
+            tempArray[index] = value;
+            for (int i = index + 1, j = index; i < size(); i++, j++) {
+                tempArray[i] = collection[j];
+            }
+            collection = new String[tempArray.length];
+            for (int i = 0; i < collection.length; i++) {
+                collection[i] = tempArray[i];
             }
         }
     }
 
-    public void delete(int index) {
-        String[] tempArray = new String[collection.length - 1];
-        for (int i = 0; i < index; i++) {
-            tempArray[i] = collection[i];
+    public void remove(String value) {
+        for (int i = 0; i < size(); i++) {
+            if (collection[i].equals(value)) {
+                remove(i);
+            }
         }
-        for (int i = index + 1, j = index; i < size(); i++, j++) {
-            tempArray[j] = collection[i];
+    }
+
+    public void remove(int index) {
+        if (index < 0 || index > count) {
+            throw new IndexOutOfBoundsException("Index is out of range.");
+        } else {
+            String[] tempArray = new String[collection.length - 1];
+            for (int i = 0; i < index; i++) {
+                tempArray[i] = collection[i];
+            }
+            for (int i = index + 1, j = index; i < size(); i++, j++) {
+                tempArray[j] = collection[i];
+            }
+            collection = new String[tempArray.length];
+            for (int i = 0; i < collection.length; i++) {
+                collection[i] = tempArray[i];
+            }
+            count--;
         }
-        collection = new String[tempArray.length];
-        System.arraycopy(tempArray, 0, collection, 0, collection.length);
-        cell--;
     }
 
     public String get(int index) {
-        if (collection[index] != null) {
+        if (index >= 0 && index <= count) {
             return "String{" + collection[index] + "}";
+        } else {
+            throw new IndexOutOfBoundsException("Index is out of range.");
         }
-        return null;
     }
 
     public int size() {
-        int counter = 0;
-        for (String s : collection) {
-            if (s != null) {
-                counter++;
-            }
+        return count;
+    }
+
+    private void resize() {
+        String[] tempArray = new String[collection.length];
+        for (int i = 0; i < collection.length; i++) {
+            tempArray[i] = collection[i];
         }
-        return counter;
+        collection = new String[(int) (tempArray.length + (tempArray.length / 1.5))];
+        for (int i = 0; i < tempArray.length; i++) {
+            collection[i] = tempArray[i];
+        }
     }
 }

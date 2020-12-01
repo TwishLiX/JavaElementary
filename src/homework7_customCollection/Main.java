@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
         int action;
-        System.out.println("1 - Add elements to collection");
-        System.out.println("2 - Edit element by its index.");
+        System.out.println("1 - Add elements to the of the collection");
+        System.out.println("2 - Add element by index");
         System.out.println("3 - Delete element (by value)");
         System.out.println("4 - Delete element (by index)");
         System.out.println("5 - Print all elements from collection");
@@ -19,10 +19,10 @@ public class Main {
             action = scanner.nextInt();
             switch (action) {
                 case 1:
-                    main.addElements();
+                    main.addToTheEnd();
                     break;
                 case 2:
-                    main.editElements();
+                    main.addByIndex();
                     break;
                 case 3:
                     main.deleteElementsByValue();
@@ -42,7 +42,7 @@ public class Main {
         } while (true);
     }
 
-    public void addElements() {
+    public void addToTheEnd() {
         String tempString;
         int amount;
         System.out.println("How many elements would you like to add?");
@@ -58,34 +58,30 @@ public class Main {
         }
     }
 
-    public void editElements() {
+    public void addByIndex() {
         String tempString;
         int amount;
-        if (collection.size() == 0) {
-            System.out.println("Collection is empty.");
+        System.out.println("How many elements would you like to add?");
+        do {
+            System.out.print("Input: ");
+            amount = scanner.nextInt();
+        } while (amount < 0);
+        if (amount > collection.size()) {
+            System.out.println("Amount of elements is bigger than the collection size.");
         } else {
-            System.out.println("How many elements would you like to edit?");
-            do {
-                System.out.print("Input: ");
-                amount = scanner.nextInt();
-            } while (amount < 0);
-            if (amount > collection.size()) {
-                System.out.println("Amount of elements is bigger than the collection size.");
-            } else {
-                for (int i = 0; i < amount; i++) {
-                    int index;
-                    do {
-                        System.out.print("Input an index of the " + (i + 1) + " element you'd like to edit: ");
-                        index = scanner.nextInt();
-                        if (index < 0 || index > collection.size() - 1) {
-                            System.out.println("Index is out of range.");
-                        }
-                    } while (index < 0 || index > collection.size() - 1);
-                    scanner.nextLine();
-                    System.out.print("Input a new string: ");
-                    tempString = scanner.nextLine();
-                    collection.add(index, tempString);
-                }
+            for (int i = 0; i < amount; i++) {
+                int index;
+                do {
+                    System.out.print("Input an index of the " + (i + 1) + " element: ");
+                    index = scanner.nextInt();
+                    if (index < 0 || index > collection.size()) {
+                        System.out.println("Index is out of range.");
+                    }
+                } while (index < 0 || index > collection.size());
+                scanner.nextLine();
+                System.out.print("Input a string: ");
+                tempString = scanner.nextLine();
+                collection.add(index, tempString);
             }
         }
     }
@@ -98,7 +94,7 @@ public class Main {
             scanner.nextLine();
             System.out.print("Input a string value you'd like to delete from the collection: ");
             tempString = scanner.nextLine();
-            collection.delete(tempString);
+            collection.remove(tempString);
         }
     }
 
@@ -113,7 +109,7 @@ public class Main {
                 amount = scanner.nextInt();
             } while (amount < 0);
             if (amount > collection.size()) {
-                System.out.println("Amount of elements is bigger than collection size.");
+                System.out.println("Amount of elements is bigger than the collection size.");
             } else {
                 for (int i = 0; i < amount; i++) {
                     int index;
@@ -124,7 +120,7 @@ public class Main {
                             System.out.println("Index is out of range.");
                         }
                     } while (index < 0 || index > collection.size() - 1);
-                    collection.delete(index);
+                    collection.remove(index);
                 }
             }
         }
