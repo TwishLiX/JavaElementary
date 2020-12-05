@@ -9,7 +9,7 @@ public interface Collection {
 
     boolean remove(int index);
 
-    String get(int index);
+    Object get(int index);
 
     boolean contains(Object o);
 
