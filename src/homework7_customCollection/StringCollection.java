@@ -23,12 +23,10 @@ public class StringCollection {
         if (index < 0 || index > count) {
             throw new IndexOutOfBoundsException("Index is out of range.");
         } else if (index == count && count <= collection.length - 1) {
-            collection[index] = value;
-            count++;
+            collection[count++] = value;
         } else if (index == count && count > collection.length - 1) {
             resize();
-            collection[index] = value;
-            count++;
+            collection[count++] = value;
         } else {
             String[] tempArray = new String[collection.length + 1];
             count++;
@@ -75,7 +73,7 @@ public class StringCollection {
 
     public String get(int index) {
         if (index >= 0 && index <= count) {
-            return "String{" + collection[index] + "}";
+            return collection[index];
         } else {
             throw new IndexOutOfBoundsException("Index is out of range.");
         }

@@ -1,4 +1,4 @@
-package homework7_customCollection;
+package homework8_customCollection;
 
 import java.util.Scanner;
 
@@ -13,6 +13,8 @@ public class Main {
         System.out.println("3 - Delete element (by value)");
         System.out.println("4 - Delete element (by index)");
         System.out.println("5 - Print all elements from the collection");
+        System.out.println("6 - Check if the collection contains definite element");
+        System.out.println("7 - Clear the collection");
         System.out.println("0 - Exit");
         do {
             System.out.print("Choose a task to run: ");
@@ -32,6 +34,12 @@ public class Main {
                     break;
                 case 5:
                     main.print();
+                    break;
+                case 6:
+                    main.contentChecking();
+                    break;
+                case 7:
+                    main.clearAll();
                     break;
                 case 0:
                     System.exit(0);
@@ -123,6 +131,27 @@ public class Main {
                     collection.remove(index);
                 }
             }
+        }
+    }
+
+    public void contentChecking() {
+        if (collection.size() == 0) {
+            System.out.println("Collection is empty.");
+        } else {
+            String tempString;
+            scanner.nextLine();
+            System.out.print("Input a string value: ");
+            tempString = scanner.nextLine();
+            System.out.println("Is the string value in the collection? Result: " + collection.contains(tempString));
+        }
+    }
+
+    public void clearAll() {
+        if (collection.size() == 0) {
+            System.out.println("Collection is empty.");
+        } else {
+            collection.clear();
+            System.out.println("Collection has been cleared.");
         }
     }
 
