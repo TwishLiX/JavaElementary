@@ -3,8 +3,8 @@ package homework10_iterator;
 import java.util.NoSuchElementException;
 
 public class CustomIterator implements Iterator {
-    private Object[] array;
-    private int count;
+    private final Object[] array;
+    private final int count;
     private int index;
 
     public CustomIterator(Object[] array) {
