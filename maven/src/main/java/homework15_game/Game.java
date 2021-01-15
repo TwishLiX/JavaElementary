@@ -55,7 +55,7 @@ public class Game {
             System.out.println(nickname + " -> " + getPlayerChoice((byte) (userMove - 1)));
             computerMove = (byte) (Math.random() * 3);
             System.out.println("Computer -> " + getComputerChoice(computerMove));
-            result = findWinner(computerMove, (byte) (userMove - 1), nickname);
+            result = getWinner(computerMove, (byte) (userMove - 1), nickname);
             if (result.equals("Draw")) {
                 System.out.println(result);
                 drawsCounter++;
@@ -84,7 +84,7 @@ public class Game {
         return moves[computerMove];
     }
 
-    private String findWinner(byte computerMove, byte userMove, String nickname) {
+    private String getWinner(byte computerMove, byte userMove, String nickname) {
         String[][] winnerMatrix = {{"Draw", "Computer", nickname}, {nickname, "Draw", "Computer"}, {"Computer", nickname, "Draw"}};
         return winnerMatrix[computerMove][userMove];
     }
