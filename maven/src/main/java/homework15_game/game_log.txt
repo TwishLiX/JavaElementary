@@ -28,3 +28,9 @@ Amount of rounds: 4
 Draws: 0; Computer: 1; spongebob: 3
 ===============================
 
+===============================
+Amount of rounds: 3
+-------------Score-------------
+Draws: 1; Computer: 2; twish: 0
+===============================
+
