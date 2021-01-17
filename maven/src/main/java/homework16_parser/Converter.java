@@ -1,7 +1,5 @@
 package homework16_parser;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.google.gson.Gson;
@@ -40,7 +38,6 @@ public class Converter {
         String jsonString = WorkWithFiles.readToString(oldFilePath);
         ObjectMapper yamlWriter = new ObjectMapper(new YAMLFactory());
         Person person = new Gson().fromJson(jsonString, Person.class);
-        yamlWriter.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
         try {
             yamlWriter.writeValue(newFilePath, person);
         } catch (IOException e) {

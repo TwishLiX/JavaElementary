@@ -3,12 +3,12 @@
   "lastName":"Khatsaiuk",
   "age":19,
   "contacts":{
-    "phone":"0973322987",
+    "phone":"0986752008",
     "email":"alex.khatsaiuk@gmail.com"
   },
   "address":{
     "city":"Odessa",
-    "street":"Fontanskaya doroga",
-    "house":127
+    "street":"Nebesnoy sotni",
+    "house":227
   }
 }

@@ -1,2 +1,2 @@
-person.json (256 bytes) -> person.yaml (195 bytes)
-Conversion duration: 0.314 seconds
+person.json (252 bytes) -> person.yaml (191 bytes)
+Conversion duration: 0.298 seconds
