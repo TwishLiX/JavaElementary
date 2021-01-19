@@ -15,7 +15,7 @@ public class ATMThread extends Thread {
                     System.out.println(Thread.currentThread().getName() + ": replenishment, " + sum
                             + "$. ATM balance: " + ATM.getBalance() + "$");
                 } else {
-                    if (sum >= ATM.getBalance()) {
+                    if (sum > ATM.getBalance()) {
                         System.err.println("Cannot withdraw cash. Withdrawal sum: "
                                 + sum + ", ATM balance: " + ATM.getBalance());
                     } else {
