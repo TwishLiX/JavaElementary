@@ -20,15 +20,15 @@ public class WorkWithFiles {
         return contentBuilder.toString();
     }
 
-    public static void writeResults(File oldFilePath, File newFilePath, Boolean state, float conversionTime) {
+    public static void writeResults(File oldFile, File newFile, Boolean state, float conversionTime) {
         File resultsPath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\result.txt");
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(resultsPath));
             if (state == null) {
                 writer.write("Error. Cannot convert the file.");
             } else {
-                writer.write(oldFilePath.getName() + " (" + oldFilePath.length() + " bytes)" +
-                        " -> " + newFilePath.getName() + " (" + newFilePath.length() + " bytes)" +
+                writer.write(oldFile.getName() + " (" + oldFile.length() + " bytes)" +
+                        " -> " + newFile.getName() + " (" + newFile.length() + " bytes)" +
                         "\nConversion duration: " + conversionTime + " seconds");
             }
             writer.close();
