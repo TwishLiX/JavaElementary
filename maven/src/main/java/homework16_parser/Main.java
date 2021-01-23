@@ -20,8 +20,8 @@ public class Main {
                 System.out.print("Input: ");
                 action = scanner.nextByte();
                 switch (action) {
-                    case 1 -> Converter.convert(directory, "json");
-                    case 2 -> Converter.convert(directory, "yaml");
+                    case 1 -> Converter.convert(directory, ".json");
+                    case 2 -> Converter.convert(directory, ".yaml");
                     case 0 -> System.exit(0);
                     default -> System.out.println("Incorrect value.\n");
                 }

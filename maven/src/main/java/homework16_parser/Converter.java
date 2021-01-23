@@ -52,15 +52,15 @@ public class Converter {
         String filename;
         for (File listFile : listFiles) {
             filename = listFile.getName();
-            if (filename.substring(filename.lastIndexOf(".") + 1).equals(initialExt)) {
+            if (filename.substring(filename.indexOf(".")).equals(initialExt)) {
                 oldFilePath = listFile.getPath();
                 filename = listFile.getName().replace(initialExt, "");
-                if (initialExt.equals("yaml")) {
-                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + "json");
+                if (initialExt.equals(".yaml")) {
+                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".json");
                     return true;
                 }
-                if (initialExt.equals("json")) {
-                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + "yaml");
+                if (initialExt.equals(".json")) {
+                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".yaml");
                     return false;
                 }
             }
