@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        DBConnection connect = new DBConnection();
+        DBConnection connect = DBConnection.getInstance();
         Scanner scan = new Scanner(System.in);
         byte action;
         do {

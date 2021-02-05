@@ -9,17 +9,25 @@ public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/university";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "admin";
+    private static DBConnection instance;
     private static Connection connection;
     private static Statement statement;
 
-    public DBConnection() {
+    private DBConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             statement = connection.createStatement();
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+            System.exit(-1);
         }
+    }
+
+    public static DBConnection getInstance() {
+        if (instance == null)
+            instance = new DBConnection();
+        return instance;
     }
 
     public void addStudent() {
