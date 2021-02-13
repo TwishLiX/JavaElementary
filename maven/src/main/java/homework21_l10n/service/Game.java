@@ -13,13 +13,8 @@ import java.util.Scanner;
 public class Game {
     private static final Move[] moves = {Move.ROCK, Move.SCISSORS, Move.PAPER};
     private static final Logger logger = LoggerFactory.getLogger(Game.class);
-    private static ResourceBundle resourceBundle;
 
-    public Game(ResourceBundle resourceBundle) {
-        this.resourceBundle = resourceBundle;
-    }
-
-    public void startGame() throws IOException {
+    public void startGame(ResourceBundle resourceBundle) throws IOException {
         Scanner scanner = new Scanner(System.in);
         String nickname;
         String result;

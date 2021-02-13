@@ -22,7 +22,7 @@ public class Main {
                         .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
                 action = scanner.nextByte();
                 switch (action) {
-                    case 1 -> new Game(resourceBundle).startGame();
+                    case 1 -> new Game().startGame(resourceBundle);
                     case 2 -> {
                         System.out.println();
                         resourceBundle = LangSelection.select(resourceBundle);
