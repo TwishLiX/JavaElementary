@@ -1,0 +1,39 @@
+2021-02-13 20:24:06 [main] INFO  homework21_l10n.service.Game - Player twishlix entered the game.
+2021-02-13 20:24:07 [main] INFO  homework21_l10n.service.Game - Player twishlix chose 4 games
+2021-02-13 20:24:08 [main] INFO  homework21_l10n.service.Game - twishlix chose SCISSORS
+2021-02-13 20:24:08 [main] INFO  homework21_l10n.service.Game - Computer chose ROCK
+2021-02-13 20:24:08 [main] INFO  homework21_l10n.service.Game - Winner: Computer. 1 game(s) have been played, 3 games left.
+2021-02-13 20:24:12 [main] INFO  homework21_l10n.service.Game - twishlix chose PAPER
+2021-02-13 20:24:12 [main] INFO  homework21_l10n.service.Game - Computer chose PAPER
+2021-02-13 20:24:12 [main] INFO  homework21_l10n.service.Game - Winner: Draw. 2 game(s) have been played, 2 games left.
+2021-02-13 20:24:13 [main] INFO  homework21_l10n.service.Game - twishlix chose ROCK
+2021-02-13 20:24:13 [main] INFO  homework21_l10n.service.Game - Computer chose SCISSORS
+2021-02-13 20:24:13 [main] INFO  homework21_l10n.service.Game - Winner: twishlix. 3 game(s) have been played, 1 games left.
+2021-02-13 20:24:15 [main] INFO  homework21_l10n.service.Game - twishlix chose SCISSORS
+2021-02-13 20:24:15 [main] INFO  homework21_l10n.service.Game - Computer chose ROCK
+2021-02-13 20:24:15 [main] INFO  homework21_l10n.service.Game - Winner: Computer. 4 game(s) have been played, 0 games left.
+2021-02-13 20:24:15 [main] INFO  homework21_l10n.service.Game - Player twishlix finished the game.
+2021-02-13 20:24:30 [main] INFO  homework21_l10n.service.Game - Player twishlix entered the game.
+2021-02-13 20:24:31 [main] INFO  homework21_l10n.service.Game - Player twishlix chose 5 games
+2021-02-13 20:24:33 [main] INFO  homework21_l10n.service.Game - twishlix chose ROCK
+2021-02-13 20:24:33 [main] INFO  homework21_l10n.service.Game - Computer chose SCISSORS
+2021-02-13 20:24:33 [main] INFO  homework21_l10n.service.Game - Winner: twishlix. 1 game(s) have been played, 4 games left.
+2021-02-13 20:24:34 [main] INFO  homework21_l10n.service.Game - twishlix chose PAPER
+2021-02-13 20:24:34 [main] INFO  homework21_l10n.service.Game - Computer chose PAPER
+2021-02-13 20:24:34 [main] INFO  homework21_l10n.service.Game - Winner: Draw. 2 game(s) have been played, 3 games left.
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - twishlix chose SCISSORS
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - Computer chose PAPER
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - Winner: twishlix. 3 game(s) have been played, 2 games left.
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - twishlix chose ROCK
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - Computer chose SCISSORS
+2021-02-13 20:24:35 [main] INFO  homework21_l10n.service.Game - Winner: twishlix. 4 game(s) have been played, 1 games left.
+2021-02-13 20:24:36 [main] INFO  homework21_l10n.service.Game - twishlix chose SCISSORS
+2021-02-13 20:24:36 [main] INFO  homework21_l10n.service.Game - Computer chose SCISSORS
+2021-02-13 20:24:36 [main] INFO  homework21_l10n.service.Game - Winner: Draw. 5 game(s) have been played, 0 games left.
+2021-02-13 20:24:36 [main] INFO  homework21_l10n.service.Game - Player twishlix finished the game.
+2021-02-13 20:24:54 [main] INFO  homework21_l10n.service.Game - Player twishlix entered the game.
+2021-02-13 20:24:56 [main] INFO  homework21_l10n.service.Game - Player twishlix chose 3 games
+2021-02-13 20:24:59 [main] INFO  homework21_l10n.service.Game - twishlix chose SCISSORS
+2021-02-13 20:24:59 [main] INFO  homework21_l10n.service.Game - Computer chose PAPER
+2021-02-13 20:24:59 [main] INFO  homework21_l10n.service.Game - Winner: twishlix. 1 game(s) have been played, 2 games left.
+2021-02-13 20:25:01 [main] INFO  homework21_l10n.service.Game - Player twishlix left the game.
