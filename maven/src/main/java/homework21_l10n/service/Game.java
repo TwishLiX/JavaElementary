@@ -24,9 +24,7 @@ public class Game {
         short drawsCounter = 0;
         short userWinsCounter = 0;
         short computerWinsCounter = 0;
-        System.out.println(new String(resourceBundle.getString("welcomeSign")
-                .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
-        System.out.print(new String(resourceBundle.getString("nicknameInput")
+        System.out.print(new String(resourceBundle.getString("welcomeSign")
                 .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
         nickname = scanner.next();
         logger.info("Player {} entered the game.", nickname);
