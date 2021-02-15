@@ -93,11 +93,10 @@ public class Game {
                         .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
                 userWinsCounter++;
             }
-            logger.info("Winner: {}. {} game(s) have been played, {} games left.",
+            logger.info("Winner: {}. {} game(s) have been played, {} game(s) left.",
                     result, (i + 1), rounds - (i + 1));
         }
         logger.info("Player {} finished the game.", nickname);
-        System.out.println();
         String log = "===============================\n" + new String(resourceBundle.getString("amountOfRounds")
                 .getBytes(StandardCharsets.ISO_8859_1), "windows-1251") + ": " + rounds +
                 "\n-------------" + new String(resourceBundle.getString("score")
@@ -108,7 +107,7 @@ public class Game {
                 .getBytes(StandardCharsets.ISO_8859_1), "windows-1251") +
                 ": " + computerWinsCounter + "; " + nickname + ": " +
                 userWinsCounter + "\n===============================\n\n";
-        System.out.println(log);
+        System.out.println("\n" + log);
         new DataWriting().writeToFile(log);
     }
 

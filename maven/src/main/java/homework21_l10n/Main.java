@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         ResourceBundle resourceBundle = LangSelection.select(ResourceBundle.getBundle("messages", new Locale("en")));
         byte action;
@@ -35,6 +35,7 @@ public class Main {
                 scanner.nextLine();
                 System.err.println(new String(resourceBundle.getString("incorrectInput")
                         .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
+                Thread.sleep(50);
             }
         } while (true);
     }

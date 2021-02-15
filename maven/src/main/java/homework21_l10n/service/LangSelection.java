@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class LangSelection {
 
-    public static ResourceBundle select(ResourceBundle resourceBundle) throws UnsupportedEncodingException {
+    public static ResourceBundle select(ResourceBundle resourceBundle) throws UnsupportedEncodingException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         String lang;
         do {
@@ -18,6 +18,7 @@ public class LangSelection {
             if (!lang.equals("en") && !lang.equals("ru") && !lang.equals("uk")) {
                 System.err.println(new String(resourceBundle.getString("incorrectInput")
                         .getBytes(StandardCharsets.ISO_8859_1), "windows-1251"));
+                Thread.sleep(50);
             } else {
                 System.out.println();
                 return ResourceBundle.getBundle("messages", new Locale(lang));
