@@ -28,3 +28,9 @@ Amount of rounds: 3
 Draws: 0; Computer: 1; twishlix: 2
 ===============================
 
+===============================
+Amount of rounds: 3
+-------------Score-------------
+Draws: 1; Computer: 1; twishlix: 1
+===============================
+

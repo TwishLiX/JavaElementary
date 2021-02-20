@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         DBConnection connect = DBConnection.getInstance();
         Scanner scan = new Scanner(System.in);
         byte action;
@@ -32,8 +32,9 @@ public class Main {
                     default -> System.err.println("Incorrect value.\n");
                 }
             } catch (InputMismatchException e) {
-                System.err.println("Incorrect value.\n");
                 scan.nextLine();
+                System.err.println("Incorrect value.\n");
+                Thread.sleep(50);
                 continue;
             }
             System.out.println();

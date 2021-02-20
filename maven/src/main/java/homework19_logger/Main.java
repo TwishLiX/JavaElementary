@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         byte action;
         do {
@@ -20,8 +20,9 @@ public class Main {
                     default -> System.err.println("Incorrect value.\n");
                 }
             } catch (InputMismatchException e) {
-                System.err.println("Incorrect value.\n");
                 scanner.nextLine();
+                System.err.println("Incorrect value.\n");
+                Thread.sleep(50);
                 continue;
             }
             System.out.println();
