@@ -1,0 +1,12 @@
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - New cache has been created.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <oleg, User(firstName=Oleg, lastName=Olegov, age=18, phone=0675543438, email=oleg@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <dima, User(firstName=Dmitry, lastName=Dmitriev, age=28, phone=0975678275, email=dima@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <sasha, User(firstName=Aleksandr, lastName=Aleksandrov, age=35, phone=0506504675, email=sasha@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <maks, User(firstName=Maksim, lastName=Maksimov, age=32, phone=0976852008, email=maks@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with a key oleg has been got from the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with a key sasha has been got from the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <yura, User(firstName=Yuri, lastName=Yuriev, age=26, phone=0672281337, email=yura@gmail.com)> has been added to the cache.
+2021-03-08 15:10:06 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-03-08 15:10:07 [Thread-0] INFO  homework22_cache.Cache - The cache has been cleared.
+2021-03-08 15:10:07 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
