@@ -1,4 +1,4 @@
-package homework21_l10n.service;
+package homework19_logger;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,7 +10,7 @@ public class DataWriting {
 
     public void writeToFile(String log) throws IOException {
         String appDirectory = FileSystems.getDefault()
-                .getPath("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework21_l10n\\logs\\game_results.txt")
+                .getPath("D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework19_logger\\game_log.txt")
                 .toAbsolutePath()
                 .toString();
         File file = new File(appDirectory);

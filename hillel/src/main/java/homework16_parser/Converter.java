@@ -56,11 +56,11 @@ public class Converter {
                 oldFilePath = listFile.getPath();
                 filename = listFile.getName().replace(initialExt, "");
                 if (initialExt.equals(".yaml")) {
-                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".json");
+                    newFilePath = new File("D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".json");
                     return true;
                 }
                 if (initialExt.equals(".json")) {
-                    newFilePath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".yaml");
+                    newFilePath = new File("D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework16_parser\\converted\\" + filename + ".yaml");
                     return false;
                 }
             }

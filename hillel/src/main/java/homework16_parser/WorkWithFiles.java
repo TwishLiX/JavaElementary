@@ -21,7 +21,7 @@ public class WorkWithFiles {
     }
 
     public static void writeResults(File oldFile, File newFile, Boolean state, float conversionTime) {
-        File resultsPath = new File("E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework16_parser\\converted\\result.txt");
+        File resultsPath = new File("D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework16_parser\\converted\\result.txt");
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(resultsPath));
             if (state == null) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="LOG_FOLDER" value="E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework22_cache\\logs"/>
+    <property name="LOG_FOLDER" value="D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework22_cache\\logs"/>
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>${LOG_FOLDER}\logs.log</file>

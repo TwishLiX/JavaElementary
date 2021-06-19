@@ -25,7 +25,7 @@ public class Game {
         System.out.println("Welcome to the rock-paper-scissors game!");
         System.out.print("Input your nickname: ");
         nickname = scanner.next();
-        logger.info("Player {} entered the game.", nickname);
+        logger.info("Player {} joined the game.", nickname);
         do {
             try {
                 System.out.print("Input a quantity of rounds: ");
@@ -39,7 +39,7 @@ public class Game {
                 logger.error("Quantity of games must be positive.");
             }
         } while (rounds <= 0);
-        logger.info("Player {} have chosen {} games", nickname, rounds);
+        logger.info("Player {} has chosen {} games", nickname, rounds);
         System.out.println("In each round you will have to choose your move:");
         System.out.println("1 - Rock\n2 - Paper\n3 - Scissors");
         System.out.println("To interrupt the game, input \"0\".");
@@ -56,7 +56,7 @@ public class Game {
                 }
             } while (userMove != 0 && userMove != 1 && userMove != 2 && userMove != 3);
             if (userMove == 0) {
-                logger.info("Player {} left the game.", nickname);
+                logger.info("Player {} has left the game.", nickname);
                 System.out.println();
                 return;
             }

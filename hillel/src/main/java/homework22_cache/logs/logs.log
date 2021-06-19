@@ -1,0 +1,147 @@
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - New cache has been created.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <oleg, User(firstName=Oleg, lastName=Olegov, age=18, phone=0675543438, email=oleg@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <dima, User(firstName=Dmitry, lastName=Dmitriev, age=28, phone=0975678275, email=dima@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <sasha, User(firstName=Aleksandr, lastName=Aleksandrov, age=35, phone=0506504675, email=sasha@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <maks, User(firstName=Maksim, lastName=Maksimov, age=32, phone=0976852008, email=maks@gmail.com)> has been added to the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with a key oleg has been got from the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with a key sasha has been got from the cache.
+2021-03-08 15:10:03 [main] INFO  homework22_cache.Cache - Element with values <yura, User(firstName=Yuri, lastName=Yuriev, age=26, phone=0672281337, email=yura@gmail.com)> has been added to the cache.
+2021-03-08 15:10:06 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-03-08 15:10:07 [Thread-0] INFO  homework22_cache.Cache - The cache has been cleared.
+2021-03-08 15:10:07 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - New cache has been created.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with values <oleg, User(firstName=Oleg, lastName=Olegov, age=18, phone=0675543438, email=oleg@gmail.com)> has been added to the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with values <dima, User(firstName=Dmitry, lastName=Dmitriev, age=28, phone=0975678275, email=dima@gmail.com)> has been added to the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with values <sasha, User(firstName=Aleksandr, lastName=Aleksandrov, age=35, phone=0506504675, email=sasha@gmail.com)> has been added to the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with values <maks, User(firstName=Maksim, lastName=Maksimov, age=32, phone=0976852008, email=maks@gmail.com)> has been added to the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with a key oleg has been got from the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with a key sasha has been got from the cache.
+2021-06-19 00:46:23 [main] INFO  homework22_cache.Cache - Element with values <yura, User(firstName=Yuri, lastName=Yuriev, age=26, phone=0672281337, email=yura@gmail.com)> has been added to the cache.
+2021-06-19 00:46:26 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:46:27 [Thread-0] INFO  homework22_cache.Cache - The cache has been cleared.
+2021-06-19 00:46:27 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - New cache has been created.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with values <oleg, User(firstName=Oleg, lastName=Olegov, age=18, phone=0675543438, email=oleg@gmail.com)> has been added to the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with values <dima, User(firstName=Dmitry, lastName=Dmitriev, age=28, phone=0975678275, email=dima@gmail.com)> has been added to the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with values <sasha, User(firstName=Aleksandr, lastName=Aleksandrov, age=35, phone=0506504675, email=sasha@gmail.com)> has been added to the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with values <maks, User(firstName=Maksim, lastName=Maksimov, age=32, phone=0976852008, email=maks@gmail.com)> has been added to the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with a key oleg has been got from the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with a key sasha has been got from the cache.
+2021-06-19 00:54:10 [main] INFO  homework22_cache.Cache - Element with values <yura, User(firstName=Yuri, lastName=Yuriev, age=26, phone=0672281337, email=yura@gmail.com)> has been added to the cache.
+2021-06-19 00:54:13 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:54:14 [Thread-0] INFO  homework22_cache.Cache - The cache has been cleared.
+2021-06-19 00:54:14 [main] INFO  homework22_cache.Cache - All values from the cache have been printed.
+2021-06-19 00:59:06 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7dc222ae
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7dc222ae
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7dc222ae
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@73d4cc9e
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@43d7741f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@5f71c76a
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5e955596
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5e955596
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5e955596
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@71d15f18
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@71d15f18
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@71d15f18
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3bd94634
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3bd94634
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3bd94634
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@517cd4b
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@517cd4b
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@517cd4b
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@12028586
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@12028586
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@12028586
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@282003e1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@282003e1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@282003e1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@31206beb
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@31206beb
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@31206beb
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5606c0b
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5606c0b
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@10b48321
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@10b48321
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@49e202ad
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@49e202ad
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@27c6e487
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@27c6e487
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@77be656f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@77be656f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@70b0b186
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@70b0b186
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@61d47554
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@61d47554
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@61d47554
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@f0f2775
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@4450d156
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4450d156
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4450d156
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7fe8ea47
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@1b68b9a4
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1b68b9a4
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@2b4a2ec7
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2b4a2ec7
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4206a205
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4206a205
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@4d826d77
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4d826d77
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d2e5f00
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d2e5f00
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1e67a849
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@64c87930
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5d47c63f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5d47c63f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5d47c63f
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@589b3632
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@589b3632
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@589b3632
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@341b80b2
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@3ec300f1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@3ec300f1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@3ec300f1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@25b485ba
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@25b485ba
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@25b485ba
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@2c34f934
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@5906ebcb
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5906ebcb
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3b938003
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@327b636c
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@327b636c
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5e4c8041
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@11dc3715
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@4b44655e
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4b44655e
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@10db82ae
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@501edcf1
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@78b729e6
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6b4a4e18
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@27c86f2d
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@197d671
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@402e37bc
+2021-06-19 00:59:06 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@79ad8b2f
+2021-06-19 00:59:06 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2021-06-19 00:59:06 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.0.1.Final}
+2021-06-19 00:59:06 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2021-06-19 00:59:06 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-06-19 00:59:06 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-06-19 00:59:06 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2021-06-19 00:59:06 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml

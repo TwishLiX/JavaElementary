@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="USER_HOME" value="E:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\maven\\src\\main\\java\\homework21_l10n\\logs"/>
+    <property name="USER_HOME" value="D:\\! Gallery\\Documents\\Hillel IT School\\Java Elementary\\hillel\\src\\main\\java\\homework21_l10n\\logs"/>
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>${USER_HOME}\game_logs.log</file>
